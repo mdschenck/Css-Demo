@@ -2,7 +2,7 @@
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header {
+#header {
 width: 100%;
 background-color: lightblue;
 position: fixed;
@@ -17,17 +17,23 @@ display: block;
 position:relative;
 top:100px;
 left:0%;
-background-color: blue
+background-color: rgb(240, 125, 202)
+}
+
+.formBlock {
+    display: block;
+width: 100%;
+background-color: rgb(138, 17, 128);
 }
 
 .form {
-    width: 100%;
+display: inline-block;
+left: 40%;
+width: 100%;
 position:relative;
-left:0%;
-background-color: lightblue;
 }
 
-.footer {
+#footer {
 width: 100%;
 background-color: darkblue;
 position: fixed;
@@ -35,6 +41,10 @@ bottom: 0px;
 }
 
 .image {
-position:absolute;
-left:200;
+    length: 25%;
+    height: 25%;
+    width: 25%;
+position:relative;
+padding: 40px;
+left:32%;
 }

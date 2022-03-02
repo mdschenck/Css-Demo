@@ -7,7 +7,7 @@
   <title>CSS Demo Website by MSchenck</title>
 </head>
 
-<header class="header">
+<header id="header">
   <a href="https://www.google.com">Search Here</a>
   <a href="https://github.com/mdschenck">GitHub</a>
   <a href="mailto:mdschenck@gmail.com">Email Me</a>
@@ -15,25 +15,27 @@
 
 <body>
   <section class="body">
-    <h1>My CSS Demo Website (First Try)</h1>
+    <h1>My CSS Demo Website</h1>
     <img
-      src="http://via.placeholder.com/250"
+      src="https://i.kym-cdn.com/entries/icons/mobile/000/013/564/doge.jpg"
       class="image"
       alt="M Schenck Headshot"
     />
   </section>
 
-  <section class="form">
-    <h3>Contact Me:</h3>
-    <form>
-      <label for="fname">First name:</label><br />
+  <section class="formBlock">
+    <h3 align="center">Contact Me:</h3>
+    <form class="form">
+      <label for="fname">First:</label>
       <input type="text" id="fname" name="fname" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" />
-      <label for="email">Email:</label><br />
-      <input type="text" id="email" name="email" />
-      <label for="phone">Phone:</label><br />
-      <input type="text" id="phone" name="phone" />
+      <label for="lname">Last:</label>
+      <input type="text" id="lname" name="lname" /><br />
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" /><br />
+      <label for="phone">Phone:</label>
+      <input type="text" id="phone" name="phone" /><br />
     </form>
   </section>
+
+  <footer id="footer"></footer>
 </body>
