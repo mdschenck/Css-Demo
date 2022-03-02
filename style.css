@@ -1,0 +1,40 @@
+* {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+width: 100%;
+background-color: lightblue;
+position: fixed;
+float: right
+top:0px;
+z-index:3;
+}
+
+.body {
+display: block;
+    width: 100%;
+position:relative;
+top:100px;
+left:0%;
+background-color: blue
+}
+
+.form {
+    width: 100%;
+position:relative;
+left:0%;
+background-color: lightblue;
+}
+
+.footer {
+width: 100%;
+background-color: darkblue;
+position: fixed;
+bottom: 0px;
+}
+
+.image {
+position:absolute;
+left:200;
+}
