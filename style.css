@@ -41,10 +41,13 @@ bottom: 0px;
 }
 
 .image {
-    length: 25%;
     height: 25%;
     width: 25%;
 position:relative;
 padding: 40px;
 left:32%;
+}
+
+#contactForm {
+
 }
